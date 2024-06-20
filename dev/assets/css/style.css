@@ -163,6 +163,7 @@ h1 {
 footer {
   height: 100px;
   margin-top: auto;
+  background: none;
 }
 
 .item-bg-colors {
