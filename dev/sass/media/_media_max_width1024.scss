@@ -1,4 +1,47 @@
 @media screen and (max-width: 1024px) {
-}
-
+    header .container {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 18px;
+      padding-bottom: 16px;
+    }
+    header .logo {
+      max-width: 126px;
+    }
+    .mobile-container {
+      flex-direction: column;
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      right: 0;
+      top: 72px;
+      background-color: #363a4d;
+      padding-top: 33px;
+      padding-bottom: 59px;
+      transform: translate(-120%, 0);
+      transition: 0.3s all linear;
+      box-shadow: 14px 22px 40px rgba(30, 35, 66, 0.2784313725);
+    }
+    .mobile-container.show {
+      transform: translate(0, 0);
+    }
+    .mobile-container nav {
+      flex-direction: column;
+      font-size: 24px;
+      margin-bottom: 27px;
+      gap: 0;
+      margin-top: 0;
+    }
+    .mobile-container nav a {
+      padding: 14px 24px;
+    }
+    .mobile-container .btn {
+      max-width: 295px;
+      width: 100%;
+      margin: 0 auto;
+      font-size: 16px;
+      padding-top: 21px;
+      padding-bottom: 22px;
+    }
+  }
 
