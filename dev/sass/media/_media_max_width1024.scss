@@ -43,5 +43,51 @@
       padding-top: 21px;
       padding-bottom: 22px;
     }
+    .banner {
+      padding: 0;
+      position: relative;
+    }
+    .banner-slider {
+      border-radius: 0;
+      height: calc(100vh - 69.89px);
+    }
+    .banner .container {
+      text-align: center;
+    }
+    .banner .swiper-slide {
+      border-radius: 0;
+      padding: 0;
+      background-size: cover;
+      background-position: center;
+    }
+    .banner .swiper-slide::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(4, 9, 17, 0.6);
+      z-index: -1;
+    }
+    .banner h1,
+    .banner .h1,
+    .banner h5,
+    .banner .h5 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .banner h1,
+    .banner .h1 {
+      font-size: 32px;
+      max-width: 295px;
+    }
+    .banner h2,
+    .banner .h2 {
+      font-size: 16px;
+    }
+    .banner .swiper-pagination {
+      z-index: 1;
+    }
   }
 

@@ -9,3 +9,28 @@ function addClass() {
 }
 
 burger.addEventListener("click", addClass);
+
+const swiper = new Swiper(".banner-slider", {
+	loop: true,
+	spaceBetween: 20,
+
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+	},
+
+	navigation: {
+		enabled: false,
+	},
+
+	breakpoints: {
+		// При разрешении >= 1025
+		1025: {
+			navigation: {
+				enabled: true,
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+		},
+	},
+});
