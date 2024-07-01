@@ -1,0 +1,26 @@
+.calculation-form {
+    padding: 100px 0 113px;
+  }
+  .calculation-form .form {
+    max-width: 626px;
+    width: 100%;
+    padding: 50px 50px 61px 50px;
+  }
+  .calculation-form .form-row {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 20px;
+  }
+  .calculation-form .form-row:last-child {
+    margin-bottom: 26px;
+  }
+  .calculation-form .form-column {
+    flex: 1 1 50%;
+  }
+  .calculation-form .btn {
+    padding-top: 19px;
+    padding-bottom: 19px;
+  }
+  .calculation-form .btn .icon {
+    margin-left: 50px;
+  }
