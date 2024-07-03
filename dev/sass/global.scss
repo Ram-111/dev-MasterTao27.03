@@ -69,6 +69,14 @@ body.overflow-hidden::after {
     padding-left: 35px;
     position: relative;
   }
+
+
+  .control-row label:not(:last-child) {
+    margin-bottom: 14px;
+  }
+
+
+
   .control-row label::before {
     content: "";
     display: inline-block;
@@ -107,31 +115,12 @@ body.overflow-hidden::after {
     top: 50%;
     transform: translateY(-50%);
   }
+
+
+
+
+
   
-  .btn {
-    display: inline-block;
-    color: #fff;
-    background-color: #e58d35;
-    border: 1px solid #e58d35;
-    border-radius: 90px;
-    padding: 14px 28px 12px 27px;
-    font-size: 15px;
-    line-height: 146%;
-    transition: 0.3s all linear;
-  }
-  .btn:hover {
-    background-color: #89c249;
-    border-color: #89c249;
-    color: #fff;
-  }
-  
-  .btn-outline {
-    background-color: transparent;
-  }
-  .btn-outline:hover {
-    background-color: #e58d35;
-    color: #fff;
-  }
   
   h1,
 .h1 {
