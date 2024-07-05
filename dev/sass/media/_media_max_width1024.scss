@@ -97,5 +97,22 @@
       max-width: 290px;
       margin-bottom: 10px;
     }
+    .template-title.half-section {
+      text-align: center;
+      max-width: 100%;
+    }
+    .template-title.half-section::after {
+      display: inline-block;
+    }
+    .template-title.half-section h2::after,
+    .template-title.half-section .h2::after {
+      display: none;
+    }
+    .calculation-form .form {
+      margin: 0 auto;
+    }
+    .calculation-form .calcuation-decor {
+      display: none;
+    }
   }
 
