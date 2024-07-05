@@ -53,6 +53,7 @@
     }
     .banner .container {
       text-align: center;
+      padding-bottom: 55px;
     }
     .banner .swiper-slide {
       border-radius: 0;
@@ -80,7 +81,7 @@
     .banner h1,
     .banner .h1 {
       font-size: 32px;
-      max-width: 295px;
+      max-width: 290px;
     }
     .banner h2,
     .banner .h2 {
@@ -88,6 +89,13 @@
     }
     .banner .swiper-pagination {
       z-index: 1;
+    }
+    .banner .swiper-slide h5{
+      margin-bottom: 18px;
+    }
+    .banner .swiper-slide h1{
+      max-width: 290px;
+      margin-bottom: 10px;
     }
   }
 
