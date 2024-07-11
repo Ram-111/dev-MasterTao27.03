@@ -114,5 +114,15 @@
     .calculation-form .calcuation-decor {
       display: none;
     }
+    .advantages.acsent::after {
+      border-radius: 0;
+      width: 100%;
+    }
+    .footer .container {
+      justify-content: center;
+    }
+    .footer .menu-wrapper {
+      display: none;
+    }
   }
 
