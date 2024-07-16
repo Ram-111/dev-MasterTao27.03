@@ -11,6 +11,7 @@
   }
   .card .card-title {
     margin-bottom: 12px;
+    color: #fff;
   }
   .card .option-list {
     list-style: none;
@@ -24,6 +25,7 @@
     display: flex;
     align-items: center;
     gap: 0 10px;
+    color: #fff;
   }
   .card .price {
     margin-bottom: 10px;
@@ -38,6 +40,7 @@
   .card .price b,
   .card .price strong {
     font-size: 45px;
+    color: #fff;
   }
   .card .btn-row {
     display: flex;
@@ -65,8 +68,8 @@
     color: #89c249;
   }
   .slider-container .swiper-button-prev {
-    left: -70px;
+    left: -92px;
   }
   .slider-container .swiper-button-next {
-    right: -70px;
+    right: -92px;
   }
