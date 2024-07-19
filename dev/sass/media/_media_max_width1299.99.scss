@@ -1,0 +1,13 @@
+@media screen and (max-width: 1299.99px) {
+    .slider-container {
+      max-width: 761px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .slider-container .swiper-button-prev {
+      left: -92px;
+    }
+    .slider-container .swiper-button-next {
+      right: -92px;
+    }
+  }

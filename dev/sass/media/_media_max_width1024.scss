@@ -118,6 +118,21 @@
       border-radius: 0;
       width: 100%;
     }
+    .swiper.default-slider .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper.default-slider .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper.default-slider .swiper-pagination-custom,
+    .swiper.default-slider .swiper-pagination-fraction {
+      position: static;
+      margin-top: 32px;
+    }
+    .slider-container .swiper-button-prev,
+    .slider-container .swiper-button-next {
+      display: none;
+    }
+    .advantages.acsent::after {
+      border-radius: 0;
+      width: 100%;
+    }
     .footer .container {
       justify-content: center;
     }
