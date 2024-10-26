@@ -25,6 +25,7 @@ body.overflow-hidden::after {
     left: 0;
     background-color: rgba(40, 43, 56, 0.9019607843);
     backdrop-filter: blur(4px);
+    z-index: 1;
   }
   
   .container {

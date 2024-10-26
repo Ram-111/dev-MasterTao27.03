@@ -90,8 +90,8 @@ const defaultSlider = new Swiper('.default-slider', {
 
 	navigation: {
 		enabled: true,
-		nextEl: ".swiper-button-prev",
-		prevEl: ".swiper-button-next",
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
 	},
 
 	pagination: {
